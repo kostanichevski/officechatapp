@@ -5,7 +5,7 @@ dotenv.config({ path: `${__dirname}/config.env` });
 
 const DB = process.env.DATABASE.replace(
   "<PASSWORD>",
-  process.env.DATBASE_PASSWORD
+  process.env.DATABASE_PASSWORD
 );
 
 exports.init = async () => {

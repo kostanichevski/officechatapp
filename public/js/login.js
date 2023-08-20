@@ -2,7 +2,7 @@ const login = async (email, password) => {
   try {
     const res = await axios({
       method: "POST",
-      url: "/main/login",
+      url: "/oca/login",
       data: { email, password },
     });
     console.log(res);
